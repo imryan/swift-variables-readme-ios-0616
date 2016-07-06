@@ -4,9 +4,11 @@ print(favoriteCharacter)
 favoriteCharacter = "Tyrion Lannister"
 print(favoriteCharacter)
 
-favoriteCharacter = 76
+// Can't assign integer value to a variable previously implied as String
+// favoriteCharacter = 76
 
 let ultimateFavoriteCharacter = "Arya Stark"
 print(ultimateFavoriteCharacter)
 
-ultimateFavoriteCharacter = "Daenerys Targaryen"
+// Can't alter value of a constant
+// ultimateFavoriteCharacter = "Daenerys Targaryen"
